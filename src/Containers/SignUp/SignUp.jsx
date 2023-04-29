@@ -57,7 +57,6 @@ export const SignUp = ({addCredentials}) => {
         placeholder="Почта"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-
       />
       <div>Пароль</div>
       <input

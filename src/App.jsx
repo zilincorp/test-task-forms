@@ -4,7 +4,6 @@ import {SignUp} from "./Containers/SignUp/SignUp";
 import {Layout} from "./Containers/Layout/Layout";
 import {useState} from "react";
 
-
 const initialState = {
   name: "",
   password: "",
