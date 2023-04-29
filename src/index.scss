@@ -1,0 +1,49 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.wrapperButton {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+a, button {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: aliceblue;
+  background: #6565bb;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+form {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  flex-direction: column;
+  gap: 5px;
+}
